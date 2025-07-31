@@ -19,6 +19,11 @@
   }  
 }
 
+.banner-icon img{
+  width: 150px;
+  height: 150px;
+}
+
 .spacer{
   height: 10px;
 }
@@ -85,15 +90,18 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #3b2304;
   overflow-y: auto;
 }
 #header .profile img {
-  margin: 15px auto;
-  display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+    margin: 15px auto;
+    display: block;
+    width: 80px;
+    border: 8px solid #2c2f3f;
+    height: 80px;
 }
+
+
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
@@ -243,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body{
-  background-color: #11988f2e !important;
+  background-color: #a35f0752 !important;
 }
 
 .blue-text{
